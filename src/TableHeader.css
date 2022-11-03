@@ -1,0 +1,11 @@
+.contentTableCell {
+  display: flex;
+  align-items: center;
+  /*border: 1px solid red;*/
+}
+
+.contentTableCell_Header {
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+}

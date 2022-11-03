@@ -1,0 +1,40 @@
+.contentTableCell {
+  display: flex;
+  align-items: center;
+  /*border: 1px solid red;*/
+}
+
+.contentTableCell_Text {
+}
+
+.contentTableCell_Text_Scratched {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.contentTableCell_Checkbox {
+}
+
+.contentTableCell_Priority {
+}
+
+.contentTableCell_Button {
+}
+.contentTableButton_Delete {
+  border: none;
+  background: rgb(58, 175, 169);
+  padding: 0.5em 1em 0.5em 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.contentTableIcon_Priority {
+  cursor: pointer;
+  color: lightgrey;
+  font-size: 20px;
+}
+.contentTableIcon_Priority_Checked {
+  cursor: pointer;
+  color: rgb(43, 122, 120);
+  font-size: 20px;
+}

@@ -1,0 +1,26 @@
+.gridInput {
+  grid-area: input;
+  padding-top: 1em;
+}
+.inputTableField_TaskName {
+  border: 1px solid rgb(58, 175, 169);
+}
+.inputTable {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+.inputTableCell {
+  display: flex;
+}
+.inputTableCell_Checkbox {
+  align-items: center; /* for vertically centered text position*/
+  padding-top: 0.25em;
+  font-size: 0.8em;
+}
+.inputTableButton_AddItem {
+  border: none;
+  background: rgb(58, 175, 169);
+  padding: 0.5em 1em 0.5em 1em;
+  color: white;
+  cursor: pointer;
+}

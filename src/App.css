@@ -1,0 +1,19 @@
+body {
+  font-family: arial;
+  color: black;
+  /* background: black; */
+  background: rgb(222, 242, 241);
+}
+
+.gridContainer {
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-columns: 95%;
+  justify-content: center;
+  grid-template-areas:
+    "appBar"
+    "input"
+    "content"
+    "footer";
+}

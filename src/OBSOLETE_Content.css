@@ -1,0 +1,68 @@
+.gridContent {
+  grid-area: content;
+  background: rgb(222, 242, 241);
+  padding: 1.5em 1em 1em 1em;
+}
+
+.contentTableRow {
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  /*grid-template-columns: 23px 110px 200px 77px;*/
+  column-gap: 1em;
+  /*row-gap: 1em;*/
+  padding-bottom: 1em;
+  justify-content: center;
+}
+
+.contentTableCell {
+  display: flex;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.contentTableCell_Header {
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.contentTableCell_Text {
+}
+
+.contentTableCell_Text_Scratched {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.contentTableCell_Checkbox {
+}
+
+.contentTableCell_Priority {
+}
+
+.contentTableCell_Button {
+}
+.contentTableButton_Delete {
+  border: none;
+  background: rgb(58, 175, 169);
+  padding: 0.5em 1em 0.5em 1em;
+  color: white;
+  cursor: pointer;
+}
+
+.contentTableIcon_Priority {
+  cursor: pointer;
+  color: lightgrey;
+  font-size: 20px;
+}
+.contentTableIcon_Priority_Checked {
+  cursor: pointer;
+  color: rgb(43, 122, 120);
+  font-size: 20px;
+}
+.contTable_NoEntries {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
